@@ -1,0 +1,27 @@
+h1 {
+    font-size: 20px;
+    color:red;
+}
+
+#yellow {
+    color: yellow;
+    font-weight: bold
+}
+
+#blue {
+    color: blue;
+    font-weight: bold
+}
+
+#green {
+    color: green;
+    font-weight: bold
+}
+
+#color {
+    background-color: green;
+    color: white;
+    width: 270px;
+    height: 40px;
+    border-radius: 30px
+}
