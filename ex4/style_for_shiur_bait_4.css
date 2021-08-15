@@ -1,0 +1,48 @@
+section:first-of-type {
+    padding-top: 0;
+    background-image: url(desktop_cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 48px;
+    margin-left: 39px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    margin-left: 39px;
+}
+div {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+a {   
+    background: #DB4700;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 414px)  {
+    section:first-of-type {
+        background-image: url(mobile_cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    p {
+        display:none;
+    }
+}
+
+.product {
+    display: inline-block;
+}
