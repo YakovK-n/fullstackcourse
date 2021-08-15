@@ -1,7 +1,9 @@
 :root {
     direction: rtl;
-    font-family: 'Times New Roman', Times, serif; 
-    background-color: lightblue;  
+    font-family: 'Merriweather', serif; 
+    background-color: lightblue;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .color_white {
@@ -52,11 +54,9 @@ span {
     margin: 12px;
 }
 
-input[type="text"] {
-    height: 100px;
-    width: 300px;
+textarea {
     direction: ltr;
-    }
+}
 
 footer {
     background-color: rgb(75, 73, 87);
@@ -67,12 +67,8 @@ footer {
 
 button {
     margin: 5px;
-}
-
-h4 {
-    width: 150px;
-    border-bottom: 2px solid black ;
-    margin-top: 0;
+    position: relative;
+    right: 100px;
 }
 
 header a {
@@ -86,3 +82,15 @@ a:hover {
 section:first-of-type:hover {
     background-color: rgb(27, 160, 45);
 }
+
+#whats {
+    position: fixed;
+    top: calc(50% - 25px);
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    color: green;
+    text-align: center;
+    justify-content: center;
+}    
