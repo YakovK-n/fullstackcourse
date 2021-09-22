@@ -1,0 +1,40 @@
+* {
+    max-width: 360px;
+}
+
+.gamburger {
+    position: absolute;
+    
+    right: 0.5rem;
+}
+
+#myLinks {
+    font: 3em sans-serif;
+   display: none;
+}
+
+#going_down {
+    position: fixed;
+    top: calc(20% - 25px);
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px);
+    color: green;
+    text-align: center;
+    justify-content: center;
+    display: none;
+}  
+
+#going_up {
+    position: fixed;
+    top: calc(20% - 25px);
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px);
+    color: rgb(82, 13, 47);
+    text-align: center;
+    justify-content: center;
+    display: none;
+}  
